@@ -46,6 +46,11 @@ export default function App() {
   }, [lastJsonMessage])
 
   const sendMessage = () => {
+    if(readyState !== ReadyState.OPEN){
+      window.alert("Non sei connesso al server!");
+      return
+    }
+
     if (input.trim() !== "") {
       sendJsonMessage({
         event: "message",
@@ -75,13 +80,13 @@ export default function App() {
             className="flex-1 p-2 rounded-lg border border-gray-600 bg-gray-700 text-white outline-none focus:ring-2 focus:ring-blue-500"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Scrivi un messaggio..."
+            placeholder="Scegli un nome..."
           />
           <button 
             onClick={handleNameSubmit}
             className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg font-semibold"
           >
-            Invia
+            Conferma
           </button>
         </div>
 
@@ -109,10 +114,16 @@ export default function App() {
           disabled={!enabled} // Disabilita il bottone se non abilitato
           className={`px-4 py-2 rounded-lg font-semibold ${     //posso usare ternario anche qua!
             enabled ? "bg-blue-600 hover:bg-blue-500" : "bg-gray-500 cursor-not-allowed opacity-50"
-          }`}
-        >
-          Invia
+          }`}>
+          {enabled? "Invia" : "Inserisci nome"}
         </button>
+      </div>
+      <div className="flex item-center mt-5 gap-4">
+        <div className={`w-10 h-10 rounded-full ${
+          readyState !== ReadyState.OPEN ? "bg-red-600" :"bg-green-600"
+        }`}>   
+        </div>
+        <h5 className="text-2xl font-bold mb-4">Connessione server</h5>
       </div>
     </div>
   );
