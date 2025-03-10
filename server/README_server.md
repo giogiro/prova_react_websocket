@@ -8,7 +8,7 @@ Un'applicazione di chat in tempo reale basata su WebSocket, sviluppata con React
 - Invio e ricezione di messaggi in tempo reale
 - UI responsive con chatbox scrollabile
 
-## 🛠 Tecnologie
+## Tecnologie
 
 - **React** + **TypeScript**
 - **react-use-websocket** per la comunicazione WebSocket
