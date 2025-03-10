@@ -13,8 +13,8 @@ Questo repository contiene sia il client che il server di un'applicazione di cha
 
 ## Documentazione
 
-- 📄 [Client README](client/README.md) - Dettagli sul client React
-- 📄 [Server README](server/README.md) - Dettagli sul server WebSocket
+- 📄 [Client README](client/README_chat.md) - Dettagli sul client React
+- 📄 [Server README](server/README_server.md) - Dettagli sul server WebSocket
 
 ## Tecnologie Utilizzate
 
