@@ -77,4 +77,4 @@ Rilasciato sotto licenza **MIT**.
 
 ---
 
-Creato con ❤️ da [Il Tuo Nome]
+Creato da Giovanni Girelli

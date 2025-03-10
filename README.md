@@ -51,3 +51,5 @@ Questo repository contiene sia il client che il server di un'applicazione di cha
    cd ../client
    npm run dev
    ```
+
+Creato da Giovanni Girelli
