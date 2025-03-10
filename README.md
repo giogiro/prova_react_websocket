@@ -1,8 +1,8 @@
-# 📦 WebSocket Chat - Client & Server
+# WebSocket Chat - Client & Server
 
 Questo repository contiene sia il client che il server di un'applicazione di chat in tempo reale basata su WebSocket.
 
-## 🏗 Struttura del Progetto
+## Struttura del Progetto
 
 ```
 /websocket-chat
@@ -11,12 +11,12 @@ Questo repository contiene sia il client che il server di un'applicazione di cha
 │── README.md   # Documentazione generale
 ```
 
-## 📖 Documentazione
+## Documentazione
 
 - 📄 [Client README](client/README.md) - Dettagli sul client React
 - 📄 [Server README](server/README.md) - Dettagli sul server WebSocket
 
-## 🚀 Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 ### Client
 
@@ -29,7 +29,7 @@ Questo repository contiene sia il client che il server di un'applicazione di cha
 - **Node.js** + **Express**
 - **ws** per la gestione WebSocket
 
-## 📦 Installazione
+## Installazione
 
 1. Clona il repository:
    ```bash
