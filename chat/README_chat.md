@@ -1,4 +1,4 @@
-# 💬 WebSocket Chat
+# WebSocket Chat
 
 Un'applicazione di chat in tempo reale basata su WebSocket, sviluppata con React e TypeScript. Utilizza `react-use-websocket` per gestire la connessione WebSocket e lo scambio di messaggi.
 
@@ -33,7 +33,7 @@ const { sendJsonMessage, lastJsonMessage, readyState } = useWebSocket<Msg>(
 
 ---
 
-## 📦 Installazione
+## Installazione
 
 1. Clona il repository e installa le dipendenze:
    ```bash

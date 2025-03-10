@@ -71,10 +71,4 @@ server.listen(8080, () => {
    npm run dev
    ```
 
-## 📜 Licenza
-
-Rilasciato sotto licenza **MIT**.
-
----
-
 Creato da Giovanni Girelli
