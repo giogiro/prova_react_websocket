@@ -1,6 +1,6 @@
 # WebSocket Chat - Client & Server
-**Applicazione sviluppata a scopo di apprendimento.**
-Questo repository contiene sia il client che il server di un'applicazione di chat in tempo reale basata su WebSocket.
+**Applicazione sviluppata a scopo di apprendimento.** \
+Questo repository contiene sia il client che il server di tale applicazione di chat in tempo reale basata su WebSocket.
 
 ## Struttura del Progetto
 
